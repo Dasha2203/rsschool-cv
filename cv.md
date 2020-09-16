@@ -1,9 +1,17 @@
-#rsschool-cv
+## rsschool-cv
+----
 1. Darya Korbut
-2. contacts
-3. First goal is a finish RS.School - FrontEnd/JS 2020Q3 courses. Second goal is become the middle developer in 1 years. Third Goal is become senior developer in 3 years. PC, program, design, this was always in my life, I start learning HTML and CSS when I was in school, but due to my family, I go to another specialty. That’s how I become a seaman, but stop learning something new in my soul mate work. But after this many years I still love all this, that’s why I sign-in FroentEnd/JS courses and beginning my road to my goals. Because of my profession I am well disciplined, assiduous, persistent and rather stubborn. I’m sure this will help me to reach my goals.
-4. Junior CSS/HTML/JS
+2. Contacts:
+   * Telegram - https://t.me/Darya0322
+   * Email - dashkakorbut@gmail.com
+   * LinkedIn - https://www.linkedin.com/in/darya-korbut-96a6461b7/
+   * GitHub - https://github.com/Dasha2203
+   * GitLab - https://gitlab.com/daria_korbut
+3. As for me, in 2020 I graduated from the Minsk Radio Engineering College, also in 2020 I entered higher education at BSUIR with a degree in information technology software.
+Passed TeachMeSkills courses on Front-End development.
+Interest in Front-End development appeared a little over a year ago, since then I read new articles every day and study layout, libraries and frameworks. At the moment, I have another goal, to go the hard way in RSSchool.
+4. Confidently know **HTML, CSS, JS, JQuery, SASS**, basic knowledge of **React, Redux** and **git**. Acquainted with the **BEM** methodology.
 5. Code examples (LATEST)
-6. RS.School HTML/CSS/JS Task
-7. The Rolling Scopes School - FrontEnd/JS 2020Q3
-8. My level is A2+ , I have a lot of practice on my work. But most of it was about seaman work, and more technical English words.
+6. No experience in Front-End development
+7. The Rolling Scopes School - FrontEnd/JS 2020Q3, TeachMeSkills.
+8. My level is **A2** , I have a lot of practice on my work. But most of it was about seaman work, and more technical English words.
