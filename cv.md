@@ -1,5 +1,4 @@
 ## rsschool-cv
-----
 1. Darya Korbut
 2. Contacts:
    * Telegram - https://t.me/Darya0322
