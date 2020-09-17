@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 11px;
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+header nav{
+    text-align: center;
+}
+
+header nav  a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color:#D55448;
+    margin-right: 25px;
+    
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+header nav a:hover {
+    color:#C74535;
+    top: -2px
+}
+
+.rectangle {
+    top: 0px;
+    position: absolute;
+    width: 380px;
+    height: 58px;
+    background: rgba(254, 220, 99, 0.3);
+    shape-outside: polygon(0 0, 380px 0, 330px 58px, 0 58px);
+    clip-path: polygon(0 0, 380px 0, 330px 58px, 0 58px);
+}
+.rectangle:before {
+    top: 0;
+    content:"";
+    display: block;
+    width: 320px;
+    height: 58px;
+    background: rgba(251, 206, 67, 0.4);
+    position: absolute;
+    shape-outside: polygon(0 0, 320px 0, 270px 58px, 0 58px);
+    clip-path: polygon(0 0, 320px 0, 270px 58px, 0 58px);
+}
+.rectangle:after {
+    top: 0;
+    content:"";
+    display: block;
+    width: 260px;
+    height: 58px;
+    background: #E5AF2F;
+    position: absolute;
+    shape-outside: polygon(0 0, 260px 0, 210px 58px, 0 58px);
+    clip-path: polygon(0 0, 260px 0, 210px 58px, 0 58px);
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+.header {
+    padding-top: 148px;
+    padding-bottom: 20px;
+    background: url(assets/img/headerBackground.png) no-repeat;
+    background-size: cover;
+}
+.block-avatar {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.avatar {
+    width: 380px;
+    height: 380px;
+    background-color: #E4B61A;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+.avatar::after {
+    content:"";
+    position:absolute;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: block;
+    bottom: -5px;
+    right: -2px;
+    background: rgba(255, 165, 119, 0.7);
+}
+
+.avatar::before {
+    content:"";
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 165, 119, 0.7);
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    right: 38px;
+    z-index: 1;
+} 
+
+
+
+.avatar img {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+    left: -32px;
+}
+
+.my-person {
+    width: 330px;
+    font-size: 50px;
+    color: #D55448;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 72px;
+}
+
+.social-network {
+    margin-top: 100px;
+    text-align: center;
+    
+    
+}
+.social-network a {
+    text-decoration: none;
+    color:#D55448;
+    font-size: 45px;
+    margin-right: 20px;
+    position: relative;
+    transition-duration: .5s;
+    top: 0;
+}
+
+.social-network a:last-child{
+    margin-right:0;
+}
+
+.social-network a:hover {
+    color:#C74535;
+    top: -10px;
+}
+
+.about-me {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.about-me .avatar img{
+    
+    left: 40px;
+}
+.about-me .avatar:after {
+    right: none;
+    left: -15px;
+}
+
+.about-me .avatar:before {
+    left: -11px;
+
+    right: none;
+}
+
+.about-me h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: #D55448;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 72px;
+}
+
+.block-about-me {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style:italic;
+    color: #896E69;
+    width: 630px;
+}
+
+.my-details {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ecb100;
+
+}
+
+.my-details p {
+    margin: 0 0 10px 0;
+}
+
+.my-details span, .skill p, .footer-social-network p  {
+    margin-top: 0;
+    color: #896E69;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+}
+
+.about-me2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.skills {
+    width: 600px;
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill p{
+    margin: 0 0 10px 0;
+}
+
+.progressbar { 
+	height: 15px;
+	position: relative;
+	background: #D9D9D9;;
+    border-radius: 10px;
+    width: 450px;
+}
+
+.progressbar > span {
+    border-radius: 10px;
+    display: block;
+    height: 100%;
+    background-color: #FEDC63;
+    position: relative;
+    overflow: hidden;
+}
+
+footer .container {
+    display: flex;
+}
+
+.footer-social-network {
+    margin-top: 0;
+    margin-right: 100px;
+}
+
+footer ul{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #896E69;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.7);
+    
+}
+
+footer ul li a:hover {
+    color:#C74535;
+}
+
+.footer-social-network p {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    position: relative;
+    padding:30px 0;
+}
+
+footer .polygon {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 220, 99, 0.3);
+    z-index: -1;
+    shape-outside: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+}
+
+footer .polygon::before {
+    top: 0;
+    content:"";
+    display: block;
+    width: 95%;
+    height: 100%;
+    background: rgba(251, 206, 67, 0.4);
+    shape-outside: polygon(0 0, 95% 0, 85% 100%, 0 100%);
+    clip-path: polygon(0 0, 95% 0, 85% 100%, 0 100%);
+}
+
+footer .polygon::after {
+    top: 0;
+    content:"";
+    display: block;
+    width: 90%;
+    height: 100%;
+    background: #E5AF2F;
+    position: absolute;
+    shape-outside: polygon(0 0, 90% 0, 80% 100%, 0 100%);
+    clip-path: polygon(0 0, 90% 0, 80% 100%, 0 100%);
+}
+
