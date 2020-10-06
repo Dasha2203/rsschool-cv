@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/33597d247f.js"></script>
     <title>Document</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <section class="header" id="header">
@@ -16,7 +17,7 @@
                 <nav>
                     <a href="#header">Home</a>
                     <a href="#about-me">About Me</a>
-                    <a href="#">Portfolio</a>
+                    <a href="#portfolio">Portfolio</a>
                 </nav>
             </div>
         </header>
@@ -99,6 +100,53 @@
             </div>
         </div>  
     </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="portfolio__title">Portfolio</h2>
+            <div class="carousel">
+                <div class="item-container">
+                    <div class="item active">
+                        <div class="item__description">
+                            <div class="description__content">
+                                <h3 class="project-name">calculator</h3>
+                                <p class="project-description">A simple calculator that can count expressions. The layout was done using Grid. It is possible to change the theme.</p>
+                                <a href="https://rolling-scopes-school.github.io/dasha2203-JS2020Q3/calculator/" target="_blank" class="button-deploy">Deploy</a>
+                            </div>
+                            <img src="assets/img/calculator.png" alt="calculator">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__description">
+                            <div class="description__content">
+                                <h3 class="project-name">shelter</h3>
+                                <p class="project-description">
+                                    Multi-page and responsive site. Sass preprocess was used here.</p>
+                                <a href="https://rolling-scopes-school.github.io/dasha2203-JS2020Q3/shelter/pages/main/main.html" target="_blank" class="button-deploy">Deploy</a>
+                            </div>
+                            <img src="assets/img/shelter.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__description">
+                            <div class="description__content">
+                                <h3 class="project-name">webdev</h3>
+                            <p class="project-description">
+                                Non-responsive landing page</p>
+                                <a href="https://rolling-scopes-school.github.io/dasha2203-JS2020Q3/webdev/" target="_blank" class="button-deploy">Deploy</a>
+                            </div>
+                            <img src="assets/img/webdev.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="control left">
+                    <div class="arrow left"><img src="assets/img/Arrow-left.svg"></div>
+                </div>
+                <div class="control right">
+                    <div class="arrow right"><img src="assets/img/Arrow-right.svg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="polygon"></div>
         <div class="container">
@@ -113,7 +161,7 @@
                 <ul>
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                 </ul>   
             </nav>
         </div>
