@@ -348,3 +348,161 @@ footer .polygon::after {
     clip-path: polygon(0 0, 90% 0, 80% 100%, 0 100%);
 }
 
+.portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio__title {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: #D55448;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 72px;
+}
+
+.carousel {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.item-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.item {
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    animation: 0.5s ease-in-out;
+}
+
+.active, .next {
+    display: block;
+}
+
+.next {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.item__description {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 13%;
+    font-size: 30px;
+    align-items: center;
+    
+}
+
+.item__description img {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    margin-left: 20px
+}
+
+.project-name {
+    padding: 10px;
+    margin: 0;
+    color: #C74535;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.project-description {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style:italic;
+    color: #896E69;
+}
+
+.button-deploy {
+    text-decoration: none;
+    padding: 8px 16px;
+    background: #D55448;
+    border-radius: 5px;
+    color: white;
+    transition: .3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-deploy:hover {
+    background: #C74535;
+}
+
+.control{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    cursor: pointer;
+}
+
+.control.left {
+    left: 0;
+    right: auto;
+}
+
+.control.right {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+
+
+.arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 100px;
+}
+
+.arrow.right{
+    right: 0;
+}
+
+.to-left {
+    animation-name: left;
+}
+
+.to-right {
+    animation-name: right;
+    animation-direction: reverse;
+
+}
+
+.from-left {
+    animation-name: left;
+    animation-direction: reverse;
+}
+
+.from-right{
+    animation-name: right;
+}
+
+@keyframes left {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes right{
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0;
+    }
+}
