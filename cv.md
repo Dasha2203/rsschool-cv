@@ -35,3 +35,70 @@ I want to learn new technologies, pump up my skills and develop more complex fun
 
 I also watch videos on YouTube and listen to podcasts.
 
+
+## Code examples
+
+Preparation of sections for displaying in a convenient form of Sitemap page
+
+```typescript
+  const sitemapItems: {
+    category: string
+    label: string
+    url: string
+  }[] = [
+    ...articles.map((it) => ({
+      category: 'articles',
+      label:
+        it.translations?.find((it) => it.locale === locale)?.title ?? it.title,
+      url: getUrl(`/blog/${it.slug}`),
+    })),
+    ...exchanges.map((it) => ({
+      category: 'exchanges',
+      label: t('exchange:title', { name: it.name }).replace(' | Criffy', ''),
+      url: getUrl(`/exchanges/${it.slug}`),
+    })),
+    ...wallets.map((it) => ({
+      category: 'wallets',
+      label: t('wallet:title', { name: it.name }).replace(' | Criffy', ''),
+      url: getUrl(`/wallets/${it.slug}`),
+    })),
+    ...currencies.map((it) => ({
+      category: 'cryptocurrencies',
+      label: t('currency:title', { name: it.name, symbol: it.symbol }).replace(
+        ' | Criffy',
+        '',
+      ),
+      url: getUrl(`/currencies/${it.slug}`),
+    })),
+    ...fiats.map((it) => ({
+      category: 'fiat',
+      label: t('fiat:title', { name: it.name, symbol: it.symbol }).replace(
+        ' | Criffy',
+        '',
+      ),
+      url: getUrl(`/currencies/${it.slug}`),
+    })),
+  ]
+```
+
+Task from [LeetCode](https://leetcode.com/)
+
+```typescript
+type CacheType = {
+    [key: string]: number
+}
+
+function twoSum(nums: number[], target: number): number[] {
+    const cache: CacheType = {}
+
+    for (let i = 0; i < nums.length; i++) {
+        let num = target - nums[i]
+
+        if (cache[num] !== undefined) return [cache[num], i] 
+
+        cache[nums[i]] = i
+    }
+
+    return []
+};
+```
