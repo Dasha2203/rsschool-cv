@@ -113,9 +113,20 @@ function twoSum(nums: number[], target: number): number[] {
 };
 ```
 
-### Experience
+## Experience
 
 1. **2020-2021**: Worked as a computer operator at school
 2. **2023**: _I worked at the company "Internet Marketing Center" as an HTML-versioner._ 
 Familiarized myself with the Smarty template engine, fixed bugs in layout and developed new pages for company websites. Optimized site loading speed by reducing the number of cycles and weight of images.
 3. **2023-...**: I work on freelance, I create information resource using Next.js, Tailwind.css and GraphQL.
+
+## Education
+
+1. 2020-2024: Belarusian State University of Informatics and Radioelectronics (Software Engineer)
+
+2. 2016-2020: Minsk Radio-Technical College (Software Technician)
+
+## English
+
+I completed my English course in 2024 at elementary level. 
+I'm learning English now and I want to level up over the summer and take intermidiate courses in the fall.
