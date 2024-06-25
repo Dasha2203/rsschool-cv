@@ -35,6 +35,16 @@ I want to learn new technologies, pump up my skills and develop more complex fun
 
 I also watch videos on YouTube and listen to podcasts.
 
+## Skills
+
+* **Basic:** HTML, CSS, JS (Sass, Jquery, BEM, REST)
+* Smarty
+* React (React router, Redux, React context, hooks)
+* Next.js
+* The foundation of Node.js and Nest.js
+* Styled-components, Tailwind.css, Material UI, Bootstrap
+* Git, figma, Rest API, GraphQL, OOP
+
 
 ## Code examples
 
