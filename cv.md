@@ -113,6 +113,30 @@ function twoSum(nums: number[], target: number): number[] {
 };
 ```
 
+Task from [CodeWars](https://www.codewars.com/)
+
+```javascript
+function highestRank(arr){
+  const obj = {}
+  let max = 0
+  let res = []
+  
+  for (let i = 0; i < arr.length; i++) {
+    obj[arr[i]] = obj[arr[i]] ? obj[arr[i]] + 1 : 1
+  }
+  
+  for (let key in obj) {
+    if (obj[key] > max) max = obj[key]
+  }
+  
+  for (let key in obj) {
+    if (obj[key] === max) res.push(+key)
+  }
+  
+  return Math.max(...res)
+}
+```
+
 ## Experience
 
 1. **2020-2021**: Worked as a computer operator at school
@@ -130,3 +154,10 @@ Familiarized myself with the Smarty template engine, fixed bugs in layout and de
 
 I completed my English course in 2024 at elementary level. 
 I'm learning English now and I want to level up over the summer and take intermidiate courses in the fall.
+
+
+## Projects
+
+1. **GitHub:** https://github.com/Dasha2203
+2. **Weather app:** https://genuine-caramel-2348f9.netlify.app/
+3. **Maps: ** https://github.com/Dasha2203/modsenguide
