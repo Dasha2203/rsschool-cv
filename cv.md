@@ -160,4 +160,4 @@ I'm learning English now and I want to level up over the summer and take intermi
 
 1. **GitHub:** https://github.com/Dasha2203
 2. **Weather app:** https://genuine-caramel-2348f9.netlify.app/
-3. **Maps: ** https://github.com/Dasha2203/modsenguide
+3. **Maps:** https://github.com/Dasha2203/modsenguide
