@@ -31,19 +31,31 @@
 
   <div class="container">
     <section class="contacts">
-
       <div class="profile contacts__profile">
         <div class="profile__img">
           <img
-            src="https://i.pinimg.com/564x/95/0e/df/950edfbff678c0771b25177482a80c3b.jpg"
+            src="avatar.jpg"
             alt="Avatar"
-          />
+          >
         </div>
         <div class="profile__data">
           <h1 class="profile__title">Darya Korbut</h1>
           <span class="profile__text">Frontend-developer</span>
         </div>
       </div>
+
+      <!-- Navigation -->
+      <nav class="contacts__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#languages">Languages</a></li>
+          <li class="navigation__item"><a href="#experience">Experience</a></li>
+          <li class="navigation__item"><a href="#education">Education</a></li>
+          <li class="navigation__item"><a href="#skills">Skills</a></li>
+          <li class="navigation__item"><a href="#projects">Projects</a></li>
+          <li class="navigation__item"><a href="#code">Code example</a></li>
+          <li class="navigation__item"><a href="#aboutme">About me</a></li>
+        </ul>
+      </nav>
 
       <div class="contacts__items">
         <div class="info">
@@ -56,13 +68,13 @@
           <svg>
             <use xlink:href="sprite.svg#phone"></use>
           </svg>
-          <a href="tel: +375295996342">+375-(29)-599-63-42</a>
+          <a href="tel:+375295996342">+375-(29)-599-63-42</a>
         </div>
         <div class="info">
           <svg>
             <use xlink:href="sprite.svg#mail"></use>
           </svg>
-          <a href="mailto: dashkakorbut@gmail.com">dashkakorbut&#64;gmail.com</a>
+          <a href="mailto:dashkakorbut@gmail.com">dashkakorbut&#64;gmail.com</a>
         </div>
         <div class="info">
           <svg>
@@ -83,10 +95,312 @@
           <a href="https://www.linkedin.com/in/darya-korbut-96a6461b7/">LinkedIn</a>
         </div>
       </div>
-    </section>
-    <section class="description">
 
+      <footer class="contacts__footer footer">
+        <span class="footer__copy">&copy; 2024 by Darya Korbut</span>
+        <a
+          target="_blank"
+          href="https://github.com/Dasha2203"
+          class="footer__link"
+        >
+          <svg>
+            <use xlink:href="sprite.svg#github"></use>
+          </svg>
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/Dasha2203"
+          class="footer__link"
+        >
+          <svg>
+            <use xlink:href="sprite.svg#rsschool"></use>
+          </svg>
+        </a>
+      </footer>
     </section>
+
+    <main class="main">
+      <!--SECTION DESCRIPTION -->
+      <div class="description">
+        <section
+          id="languages"
+          class="description__item"
+        >
+          <h2 class="description__badge badge">Languages</h2>
+          <div class="block-data">
+            <div class="block-data__title">
+              English (A2+) <br>
+              Russian
+            </div>
+          </div>
+        </section>
+        <section
+          id="experience"
+          class="description__item"
+        >
+          <h2 class="description__badge badge">Experience</h2>
+          <div class="block-data">
+            <div class="block-data__title">Freelance</div>
+            <div class="block-data__subtitle">Frontend-developer</div>
+            <div class="block-data__subtext">July, 2023 - ...</div>
+            <p class="block-data__text">
+              I work on freelance, I create information resource using Next.js, Tailwind.css and GraphQL. I develop
+              filters, modal window, interactive navigation on the blog site, optimize the performance of the site by
+              reducing re-rendering, image weight.
+            </p>
+          </div>
+          <div class="block-data">
+            <div class="block-data__title">CIM</div>
+            <div class="block-data__subtitle">Frontend-developer</div>
+            <div class="block-data__subtext">March, 2023 - July, 2024</div>
+            <p class="block-data__text">
+              Adaptive page layout.
+              Fixing bugs in the layout.
+              Optimization of page loading speed (image size reduction, search for unnecessary loops for product
+              displays
+              on the site)
+            </p>
+          </div>
+          <div class="block-data">
+            <div class="block-data__title">School</div>
+            <div class="block-data__subtitle">Worked as a computer operator at school</div>
+            <div class="block-data__subtext">March, 2020 - March, 2021</div>
+            <p class="block-data__text">
+              Performed required tasks in Word, Excel, Power Point. Set up the local network. Edited various videos for
+              events.
+            </p>
+          </div>
+        </section>
+
+        <section
+          id="education"
+          class="description__item"
+        >
+          <h2 class="description__badge badge">Education</h2>
+          <div class="block-data">
+            <div class="block-data__title">Belarusian State University of Informatics and Radioelectronics</div>
+            <div class="block-data__subtitle">Software Engineer</div>
+            <div class="block-data__subtext">2020-2024</div>
+          </div>
+          <div class="block-data">
+            <div class="block-data__title">Minsk Radio-Technical College</div>
+            <div class="block-data__subtitle">Software Technician</div>
+            <div class="block-data__subtext">2016-2020</div>
+          </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section
+          id="skills"
+          class="description__item"
+        >
+          <h2 class="description__badge badge">Skills</h2>
+
+          <div class="skills">
+
+            <div class="skill">
+              <div class="skill__img html">
+                <svg>
+                  <use xlink:href="sprite.svg#html"></use>
+                </svg>
+              </div>
+              <p class="skill__text">HTML</p>
+            </div>
+            <div class="skill">
+              <div class="skill__img css">
+                <svg>
+                  <use xlink:href="sprite.svg#css"></use>
+                </svg>
+              </div>
+              <p class="skill__text">CSS</p>
+            </div>
+            <div class="skill">
+              <div class="skill__img js">
+                <svg>
+                  <use xlink:href="sprite.svg#js"></use>
+                </svg>
+              </div>
+              <p class="skill__text">JS</p>
+            </div>
+            <div class="skill">
+              <div class="skill__img react">
+                <svg>
+                  <use xlink:href="sprite.svg#react"></use>
+                </svg>
+              </div>
+              <p class="skill__text">React</p>
+            </div>
+            <div class="skill">
+              <div class="skill__img nextjs">
+                <svg>
+                  <use xlink:href="sprite.svg#nextjs"></use>
+                </svg>
+              </div>
+              <p class="skill__text">Next.js</p>
+            </div>
+            <div class="skill">
+              <div class="skill__img tailwind">
+                <svg>
+                  <use xlink:href="sprite.svg#tailwind"></use>
+                </svg>
+              </div>
+              <p class="skill__text">Tailwind</p>
+            </div>
+            <div class="skill">
+              <div class="skill__img restapi">
+                <svg>
+                  <use xlink:href="sprite.svg#restapi"></use>
+                </svg>
+              </div>
+              <p class="skill__text">Rest API</p>
+            </div>
+            <div class="skill">
+              <div class="skill__img graphql">
+                <svg>
+                  <use xlink:href="sprite.svg#graphql"></use>
+                </svg>
+              </div>
+              <p class="skill__text">GraphQL</p>
+            </div>
+            <div class="skill">
+              <div class="skill__img git">
+                <svg>
+                  <use xlink:href="sprite.svg#git"></use>
+                </svg>
+              </div>
+              <p class="skill__text">Git</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section
+          id="projects"
+          class="description__item"
+        >
+          <h2 class="description__badge badge">Projects</h2>
+
+          <div class="projects">
+            <a
+              target="_blank"
+              href="https://github.com/Dasha2203"
+            >Gihub</a>
+            <a
+              target="_blank"
+              href="https://genuine-caramel-2348f9.netlify.app/"
+            >Weather app</a>
+            <a
+              target="_blank"
+              href="https://github.com/Dasha2203/modsenguide"
+            >Maps</a>
+          </div>
+        </section>
+        <section
+          id="code"
+          class="description__item"
+        >
+          <h2 class="description__badge badge">Code example</h2>
+
+          <code>
+            function highestRank(arr){
+              const obj = {}
+              let max = 0
+              let res = []
+              
+              for (let i = 0; i &lt; arr.length; i++) {
+                obj[arr[i]] = obj[arr[i]] ? obj[arr[i]] + 1 : 1
+              }
+              
+              for (let key in obj) {
+                if (obj[key]	&#62; max) max = obj[key]
+              }
+              
+              for (let key in obj) {
+                if (obj[key] === max) res.push(+key)
+              }
+              
+              return Math.max(...res)
+            }
+          </code>
+        </section>
+
+
+        <section
+          id="aboutme"
+          class="description__item"
+        >
+          <h2 class="description__badge badge">About me</h2>
+
+          <p>
+            I graduated Minsk Radio-Technical College that’s where I learned the basics of programming. After then I
+            gratuated Belarusian State University of Informatics and Radioelectronics in 2024.
+          </p>
+          <p>
+            During my studies, I did some freelance work. I developed web-pages using HTML, CSS, JS, BEM. A developed
+            PWA
+            applications using React, React Router, React context, WebSocket, styled-components.
+          </p>
+
+          <p>
+            The list of tasks I’ve been doing
+          </p>
+
+          <ul class="description__list">
+            <li class="description__list-item">Lendings development (HTML, CSS, JS, SASS, BEM, SMARTY)</li>
+            <li class="description__list-item">SPA development (React, React Router, styled components, React context)
+            </li>
+            <li class="description__list-item">Optimizing the display of a large list of data using a virtualized list
+            </li>
+            <li class="description__list-item">Optimize page load speed</li>
+            <li class="description__list-item">Forms development and validation</li>
+            <li class="description__list-item">Synchronization of data with other sites on the server side</li>
+          </ul>
+
+          <p>
+            I am currently working for a client and they are developing an information project using Next.js,
+            Tailwind.css,
+            GraphQL. I work with a lot of data, display them in tables with pagination. I develop filters and data
+            search
+            on
+            the site.
+          </p>
+          <p>
+            I love website development as I enjoy working not only with the functional part but also the look and feel
+            of
+            the website. I like layout and logic development. I have not had a mentor, but I try to develop on my own,
+            periodically revise my code and make edits.
+          </p>
+          <p>
+            I want to learn new technologies, pump up my skills and develop more complex functionality.
+          </p>
+          <p>
+            I also watch videos on YouTube and listen to podcasts.
+          </p>
+        </section>
+
+        <footer class="description__footer footer">
+          <span class="footer__copy">&copy; 2024 by Darya Korbut</span>
+          <a
+            target="_blank"
+            href="https://github.com/Dasha2203"
+            class="footer__link"
+          >
+            <svg>
+              <use xlink:href="sprite.svg#github"></use>
+            </svg>
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/Dasha2203"
+            class="footer__link"
+          >
+            <svg>
+              <use xlink:href="sprite.svg#rsschool"></use>
+            </svg>
+          </a>
+        </footer>
+      </div>
+    </main>
   </div>
 </body>
 
