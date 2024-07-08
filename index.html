@@ -29,71 +29,74 @@
 
 <body>
   <div class="container">
-    <header class="contacts header">
-      <div class="profile contacts__profile">
-        <div class="profile__img">
-          <img
-            src="avatar.jpg"
-            alt="Avatar"
-          >
+    <section class="contacts">
+      <header class="header">
+        <div class="profile contacts__profile">
+          <div class="profile__img">
+            <img
+              src="avatar.jpg"
+              alt="Avatar"
+            >
+          </div>
+          <div class="profile__data">
+            <h1 class="profile__title">Darya Korbut</h1>
+            <span class="profile__text">Frontend-developer</span>
+          </div>
         </div>
-        <div class="profile__data">
-          <h1 class="profile__title">Darya Korbut</h1>
-          <span class="profile__text">Frontend-developer</span>
-        </div>
-      </div>
 
-      <!-- Navigation -->
-      <nav class="contacts__navigation navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item"><a href="#languages">Languages</a></li>
-          <li class="navigation__item"><a href="#experience">Experience</a></li>
-          <li class="navigation__item"><a href="#education">Education</a></li>
-          <li class="navigation__item"><a href="#skills">Skills</a></li>
-          <li class="navigation__item"><a href="#projects">Projects</a></li>
-          <li class="navigation__item"><a href="#code">Code example</a></li>
-          <li class="navigation__item"><a href="#aboutme">About me</a></li>
+        <!-- Navigation -->
+        <nav class="contacts__navigation navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#languages">Languages</a></li>
+            <li class="navigation__item"><a href="#experience">Experience</a></li>
+            <li class="navigation__item"><a href="#education">Education</a></li>
+            <li class="navigation__item"><a href="#skills">Skills</a></li>
+            <li class="navigation__item"><a href="#projects">Projects</a></li>
+            <li class="navigation__item"><a href="#code">Code example</a></li>
+            <li class="navigation__item"><a href="#aboutme">About me</a></li>
+          </ul>
+        </nav>
+
+        <ul class="contacts__items">
+          <li class="info contacts__item">
+            <svg>
+              <use xlink:href="sprite.svg#address"></use>
+            </svg>
+            <span>Minsk, Belarus</span>
+          </li>
+          <li class="info contacts__item">
+            <svg>
+              <use xlink:href="sprite.svg#phone"></use>
+            </svg>
+            <a href="tel:+375295996342">+375-(29)-599-63-42</a>
+          </li>
+          <li class="info contacts__item">
+            <svg>
+              <use xlink:href="sprite.svg#mail"></use>
+            </svg>
+            <a href="mailto:dashkakorbut@gmail.com">dashkakorbut&#64;gmail.com</a>
+          </li>
+          <li class="info contacts__item">
+            <svg>
+              <use xlink:href="sprite.svg#github"></use>
+            </svg>
+            <a href="https://github.com/Dasha2203">GitHub</a>
+          </li>
+          <li class="info contacts__item">
+            <svg>
+              <use xlink:href="sprite.svg#telegram"></use>
+            </svg>
+            <a href="https://t.me/Darya0322">Telegram</a>
+          </li>
+          <li class="info contacts__item">
+            <svg>
+              <use xlink:href="sprite.svg#linkedin"></use>
+            </svg>
+            <a href="https://www.linkedin.com/in/darya-korbut-96a6461b7/">LinkedIn</a>
+          </li>
         </ul>
-      </nav>
+      </header>
 
-      <div class="contacts__items">
-        <div class="info">
-          <svg>
-            <use xlink:href="sprite.svg#address"></use>
-          </svg>
-          <span>Minsk, Belarus</span>
-        </div>
-        <div class="info">
-          <svg>
-            <use xlink:href="sprite.svg#phone"></use>
-          </svg>
-          <a href="tel:+375295996342">+375-(29)-599-63-42</a>
-        </div>
-        <div class="info">
-          <svg>
-            <use xlink:href="sprite.svg#mail"></use>
-          </svg>
-          <a href="mailto:dashkakorbut@gmail.com">dashkakorbut&#64;gmail.com</a>
-        </div>
-        <div class="info">
-          <svg>
-            <use xlink:href="sprite.svg#github"></use>
-          </svg>
-          <a href="https://github.com/Dasha2203">GitHub</a>
-        </div>
-        <div class="info">
-          <svg>
-            <use xlink:href="sprite.svg#telegram"></use>
-          </svg>
-          <a href="https://t.me/Darya0322">Telegram</a>
-        </div>
-        <div class="info">
-          <svg>
-            <use xlink:href="sprite.svg#linkedin"></use>
-          </svg>
-          <a href="https://www.linkedin.com/in/darya-korbut-96a6461b7/">LinkedIn</a>
-        </div>
-      </div>
 
       <footer class="contacts__footer footer">
         <span class="footer__copy">&copy; 2024 by Darya Korbut</span>
@@ -108,7 +111,7 @@
         </a>
         <a
           target="_blank"
-          href="https://github.com/Dasha2203"
+          href="https://rs.school/courses/javascript-ru"
           class="footer__link"
         >
           <svg>
@@ -116,7 +119,7 @@
           </svg>
         </a>
       </footer>
-    </header>
+    </section>
 
     <main class="main">
       <!--SECTION DESCRIPTION -->
