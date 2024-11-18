@@ -3,28 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
-  <link
-    rel="preconnect"
-    href="https://fonts.googleapis.com"
-  >
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  >
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet"
-  >
-  <link
-    rel="stylesheet"
-    href="./style.css"
-  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -33,10 +17,7 @@
       <header class="header">
         <div class="profile contacts__profile">
           <div class="profile__img">
-            <img
-              src="avatar.jpg"
-              alt="Avatar"
-            >
+            <img src="avatar.jpg" alt="Avatar">
           </div>
           <div class="profile__data">
             <h1 class="profile__title">Darya Korbut</h1>
@@ -47,13 +28,27 @@
         <!-- Navigation -->
         <nav class="contacts__navigation navigation">
           <ul class="navigation__list">
-            <li class="navigation__item"><a href="#languages">Languages</a></li>
-            <li class="navigation__item"><a href="#experience">Experience</a></li>
-            <li class="navigation__item"><a href="#education">Education</a></li>
-            <li class="navigation__item"><a href="#skills">Skills</a></li>
-            <li class="navigation__item"><a href="#projects">Projects</a></li>
-            <li class="navigation__item"><a href="#code">Code example</a></li>
-            <li class="navigation__item"><a href="#aboutme">About me</a></li>
+            <li class="navigation__item">
+              <a href="#languages" aria-label="Перейти к разделу Languages">Languages</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#experience" aria-label="Перейти к разделу Experience">Experience</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#education" aria-label="Перейти к разделу Education">Education</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#skills" aria-label="Перейти к разделу Skills">Skills</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#projects" aria-label="Перейти к разделу Projects">Projects</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#code" aria-label="Перейти к разделу Code example">Code example</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#aboutme" aria-label="Перейти к разделу About me">About me</a>
+            </li>
           </ul>
         </nav>
 
@@ -100,20 +95,12 @@
 
       <footer class="contacts__footer footer">
         <span class="footer__copy">&copy; 2024 by Darya Korbut</span>
-        <a
-          target="_blank"
-          href="https://github.com/Dasha2203"
-          class="footer__link"
-        >
+        <a target="_blank" href="https://github.com/Dasha2203" class="footer__link" aria-label="Перейти на мой Github аккаунт">
           <svg>
             <use xlink:href="sprite.svg#github"></use>
           </svg>
         </a>
-        <a
-          target="_blank"
-          href="https://rs.school/courses/javascript-ru"
-          class="footer__link"
-        >
+        <a target="_blank" href="https://rs.school/courses/javascript-ru" class="footer__link"  aria-label="Перейти на страницу курсов от RS School">
           <svg>
             <use xlink:href="sprite.svg#rsschool"></use>
           </svg>
@@ -124,10 +111,7 @@
     <main class="main">
       <!--SECTION DESCRIPTION -->
       <div class="description">
-        <section
-          id="languages"
-          class="description__item"
-        >
+        <section id="languages" class="description__item">
           <h2 class="description__badge badge">Languages</h2>
           <div class="block-data">
             <div class="block-data__title">
@@ -136,10 +120,7 @@
             </div>
           </div>
         </section>
-        <section
-          id="experience"
-          class="description__item"
-        >
+        <section id="experience" class="description__item">
           <h2 class="description__badge badge">Experience</h2>
           <div class="block-data">
             <div class="block-data__title">Freelance</div>
@@ -174,10 +155,7 @@
           </div>
         </section>
 
-        <section
-          id="education"
-          class="description__item"
-        >
+        <section id="education" class="description__item">
           <h2 class="description__badge badge">Education</h2>
           <div class="block-data">
             <div class="block-data__title">Belarusian State University of Informatics and Radioelectronics</div>
@@ -192,14 +170,10 @@
         </section>
 
         <!-- SKILLS -->
-        <section
-          id="skills"
-          class="description__item"
-        >
+        <section id="skills" class="description__item">
           <h2 class="description__badge badge">Skills</h2>
 
           <div class="skills">
-
             <div class="skill">
               <div class="skill__img html">
                 <svg>
@@ -276,31 +250,16 @@
         </section>
 
         <!-- PROJECTS -->
-        <section
-          id="projects"
-          class="description__item"
-        >
+        <section id="projects" class="description__item">
           <h2 class="description__badge badge">Projects</h2>
 
           <div class="projects">
-            <a
-              target="_blank"
-              href="https://github.com/Dasha2203"
-            >Gihub</a>
-            <a
-              target="_blank"
-              href="https://genuine-caramel-2348f9.netlify.app/"
-            >Weather app</a>
-            <a
-              target="_blank"
-              href="https://github.com/Dasha2203/modsenguide"
-            >Maps</a>
+            <a target="_blank" href="https://github.com/Dasha2203" aria-label="Перейти на мой Github аккаунт">Gihub</a>
+            <a target="_blank" href="https://genuine-caramel-2348f9.netlify.app/" aria-label="Перейти к проекту Weather app">Weather app</a>
+            <a target="_blank" href="https://github.com/Dasha2203/modsenguide" aria-label="Перейти к проекту Путеводитель по городу">Maps</a>
           </div>
         </section>
-        <section
-          id="code"
-          class="description__item"
-        >
+        <section id="code" class="description__item">
           <h2 class="description__badge badge">Code example</h2>
 
           <code>
@@ -326,11 +285,7 @@
           </code>
         </section>
 
-
-        <section
-          id="aboutme"
-          class="description__item"
-        >
+        <section id="aboutme" class="description__item">
           <h2 class="description__badge badge">About me</h2>
 
           <p>
@@ -349,10 +304,8 @@
 
           <ul class="description__list">
             <li class="description__list-item">Lendings development (HTML, CSS, JS, SASS, BEM, SMARTY)</li>
-            <li class="description__list-item">SPA development (React, React Router, styled components, React context)
-            </li>
-            <li class="description__list-item">Optimizing the display of a large list of data using a virtualized list
-            </li>
+            <li class="description__list-item">SPA development (React, React Router, styled components, React context)</li>
+            <li class="description__list-item">Optimizing the display of a large list of data using a virtualized list</li>
             <li class="description__list-item">Optimize page load speed</li>
             <li class="description__list-item">Forms development and validation</li>
             <li class="description__list-item">Synchronization of data with other sites on the server side</li>
@@ -382,20 +335,12 @@
 
         <footer class="description__footer footer">
           <span class="footer__copy">&copy; 2024 by Darya Korbut</span>
-          <a
-            target="_blank"
-            href="https://github.com/Dasha2203"
-            class="footer__link"
-          >
+          <a target="_blank" href="https://github.com/Dasha2203" class="footer__link" aria-label="Перейти на мой Github аккаунт">
             <svg>
               <use xlink:href="sprite.svg#github"></use>
             </svg>
           </a>
-          <a
-            target="_blank"
-            href="https://rs.school/courses/javascript-ru"
-            class="footer__link"
-          >
+          <a target="_blank" href="https://rs.school/courses/javascript-ru" class="footer__link" aria-label="Перейти на страницу курсов Rs school">
             <svg>
               <use xlink:href="sprite.svg#rsschool"></use>
             </svg>
